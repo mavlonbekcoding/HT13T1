@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HT13T1", "HT13T1\HT13T1.csproj", "{7980A72A-C322-4A8F-AA2A-52476F18AC1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson-13", "lesson-13", "{E41203CE-6045-48FA-A72C-B33C66287F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N13-HT2", "N13-HT2\N13-HT2.csproj", "{C26DB14B-A573-451B-A775-C0959B4B5E51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,17 @@ Global
 		{7980A72A-C322-4A8F-AA2A-52476F18AC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7980A72A-C322-4A8F-AA2A-52476F18AC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7980A72A-C322-4A8F-AA2A-52476F18AC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26DB14B-A573-451B-A775-C0959B4B5E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26DB14B-A573-451B-A775-C0959B4B5E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26DB14B-A573-451B-A775-C0959B4B5E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26DB14B-A573-451B-A775-C0959B4B5E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7980A72A-C322-4A8F-AA2A-52476F18AC1C} = {E41203CE-6045-48FA-A72C-B33C66287F4E}
+		{C26DB14B-A573-451B-A775-C0959B4B5E51} = {E41203CE-6045-48FA-A72C-B33C66287F4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B240A897-5E81-4036-818B-0541587AC77F}
