@@ -1,0 +1,1 @@
+﻿var arrayB = new int[2][];
